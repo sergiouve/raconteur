@@ -1,0 +1,20 @@
+{
+  "name": "tellatale",
+  "version": "0.0.1",
+  "description": "Conversational adventure interface",
+  "main": "bin/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "game",
+    "adventure",
+    "conversational"
+  ],
+  "author": "Sergio Uve",
+  "license": "MIT"
+}
