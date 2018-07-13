@@ -1,0 +1,14 @@
+{
+    "plaza": {
+        "name": "Central Plaza",
+        "description": "A sunny, lonely plaza",
+        "objects": [],
+        "connections": []
+    },
+    "basement": {
+        "name": "Shop basement",
+        "description": "Dark and dump meat shop basement",
+        "objects": [],
+        "connections": []
+    }
+}
