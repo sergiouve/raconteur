@@ -18,7 +18,4 @@
     ],
     "author": "Sergio Uve",
     "license": "MIT",
-    "dependencies": {
-        "prompt": "^1.0.0"
-    }
 }
