@@ -3,12 +3,39 @@
         "name": "Central Plaza",
         "description": "A sunny, lonely plaza",
         "objects": [],
-        "connections": []
+        "connections": {
+            "up": false,
+            "down": false,
+            "north": "shop",
+            "west": false,
+            "south": false,
+            "east": false
+        }
+    },
+    "shop" :{
+        "name": "Meat shop",
+        "description": "Your family old meat shop",
+        "objects": [],
+        "connections": {
+            "up": false,
+            "down": "basement",
+            "north": false,
+            "west": false,
+            "south": "plaza",
+            "east": false
+        }
     },
     "basement": {
         "name": "Shop basement",
         "description": "Dark and dump meat shop basement",
         "objects": [],
-        "connections": []
+        "connections": {
+            "up": "shop",
+            "down": false,
+            "north": false,
+            "west": false,
+            "south": false,
+            "east": false
+        }
     }
 }

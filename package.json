@@ -4,8 +4,8 @@
     "description": "Conversational adventure interface",
     "main": "bin/index.js",
     "directories": {
-      "doc": "docs",
-      "test": "test"
+        "doc": "docs",
+        "test": "test"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +17,8 @@
         "conversational"
     ],
     "author": "Sergio Uve",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "prompt": "^1.0.0"
+    }
 }
