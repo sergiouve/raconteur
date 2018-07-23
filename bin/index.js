@@ -1,4 +1,6 @@
-const Game = require('../lib/game.js');
-const tale = process.argv[2].split('=')[1];
+const Prompter = require('../lib/prompter');
+const Game     = require('../lib/game');
+const tale     = process.argv[2].split('=')[1];
+const game = new Game(tale);
 
-new Game(tale).init();
+new Prompter(game).start();

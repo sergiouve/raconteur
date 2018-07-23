@@ -1,0 +1,32 @@
+#+TITLE: tellatale org file
+
+* WORK
+
+** TODO Player class
+** TODO Room class
+
+* DOCUMENTATION
+
+** Classes
+
+*** Player class
+
+The player class is responsible for keeping track of the player state. This includes:
+- Inventory
+- Health
+- Position ??
+- Status
+
+*** Room class
+
+The room class is responsible for instancig rooms and keeping track of their data and status.
+This includes:
+- Loot
+- Status
+- Connections
+
+*** Game class
+
+The game class is responsible for coordinating the Room, Player, Prompt and Event classes.
+ 
+*** Prompt class
