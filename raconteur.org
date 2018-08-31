@@ -1,0 +1,50 @@
+#+TITLE: tellatale org file
+
+* ROADMAP
+
+** TODO Prompt class
+** TODO Game class
+** TODO Player class
+** TODO Room class
+** TODO Item class
+
+* DOCS
+
+** Classes
+*** Prompt class
+    This class is responsible for the I/O of the game. It shoul be able to
+    understand command and present output according to the game state.
+
+*** Game class
+    The game class is responsible for coordinating the Room, Player, Prompt and
+    Event classes.
+
+*** Player class
+    The player class is responsible for keeping track of the player state.
+
+*** Room class
+    The room class is responsible for instancig rooms and keeping track of their
+    data and status.
+
+*** Item class
+    This class is responsible for the representation of "physical" items in the
+    world.
+    
+*** Loader class
+    This class is responsible for loading the game files into memory.
+
+** Architecture
+   
+*** Bootup
+- raconteur.js instantiates a new Prompter.
+- the prompter instance loads all the necessary data from the game files.
+- the promper instance performs the welcome action and initiates the REPL.
+  
+*** Game REPL
+- prompert paints scene based on the game state
+- prompert asks for input
+- prompter formats the input and passes it to game
+- game validates the prompter input
+- game modifies state based on the prompter input
+- game returns current state for the promper to print
+- repeat
