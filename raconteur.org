@@ -48,3 +48,11 @@
 - game modifies state based on the prompter input
 - game returns current state for the promper to print
 - repeat
+** Gameplay
+*** Available actions
+- look
+- walk
+- take
+- open
+- close
+- use
