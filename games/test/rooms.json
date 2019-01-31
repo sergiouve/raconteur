@@ -1,8 +1,8 @@
 {
     "plaza": {
         "name": "Central Plaza",
-        "short_description": "A sunny, lonely plaza",
-        "long_description": "The plaza seems to be a crowed place during the day, judging by the empty market things and bli and bla and blu lele.",
+        "shortDescription": "A sunny, lonely plaza",
+        "longDescription": "The plaza seems to be a crowed place during the day, judging by the empty market things and bli and bla and blu lele.",
         "objects": [],
         "connections": {
             "up": false,
@@ -15,8 +15,8 @@
     },
     "shop" :{
         "name": "Meat shop",
-        "short_description": "Your family old meat shop",
-        "long_description": "Your family old meat shop",
+        "shortDescription": "Your family old meat shop",
+        "longDescription": "Your family old meat shop",
         "objects": [],
         "connections": {
             "up": false,
@@ -29,8 +29,8 @@
     },
     "basement": {
         "name": "Shop basement",
-        "short_description": "Dark and dump meat shop basement",
-        "long_description": "Dark and dump meat shop basement",
+        "shortDescription": "Dark and dump meat shop basement",
+        "longDescription": "Dark and dump meat shop basement",
         "objects": [],
         "connections": {
             "up": "shop",
